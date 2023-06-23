@@ -1,0 +1,42 @@
+#fridge-item {
+    display: flex;
+    margin-bottom: 5vh;
+    min-width: 80vw;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    font-family: sans-serif;
+    border: 2px solid darkgreen;
+    flex-direction: row;
+    text-align: center;
+    color: darkgreen;
+    box-shadow: 0px 0px 3px 0 black;
+    padding: 20px
+}
+
+#fridge-item h1 {
+    text-transform: capitalize;
+    margin-right: 1vw;
+}
+
+#fridge-item h3 {
+    margin-right: 1vw;
+}
+
+
+#remove {
+    margin-left: auto;
+}
+
+#fridge-item img {
+    width: 50px;
+    height: auto;
+    margin-right: 5vw;
+}
+
+#fridge-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
